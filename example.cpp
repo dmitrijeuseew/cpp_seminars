@@ -4,6 +4,9 @@ using namespace std;
 
 int main()
 {
-  cout << "Hello" << endl;
+  int x = 0;
+  for (int i = 0; i < 3; i++)
+    x += 1;
+  cout << "hello" << endl;
   return 0;
 }
